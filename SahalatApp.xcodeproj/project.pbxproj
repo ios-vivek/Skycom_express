@@ -11,6 +11,9 @@
 		E218DEAF2457FD33003AFD1D /* TermsAndConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218DEAE2457FD33003AFD1D /* TermsAndConditionVC.swift */; };
 		E218DEB12457FD4F003AFD1D /* CallUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218DEB02457FD4F003AFD1D /* CallUsVC.swift */; };
 		E218DEB32457FD68003AFD1D /* WhatsappVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218DEB22457FD68003AFD1D /* WhatsappVC.swift */; };
+		E2A80E9C245DC407007174B5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80E9B245DC407007174B5 /* Colors.swift */; };
+		E2A80E9E245DC941007174B5 /* DPAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80E9D245DC941007174B5 /* DPAddressVC.swift */; };
+		E2A80EA0245DC95D007174B5 /* DPShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80E9F245DC95D007174B5 /* DPShopVC.swift */; };
 		E2D926BF2457309C00E7926D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D926BE2457309C00E7926D /* AppDelegate.swift */; };
 		E2D926C32457309C00E7926D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D926C22457309C00E7926D /* HomeVC.swift */; };
 		E2D926C62457309C00E7926D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D926C42457309C00E7926D /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 		E218DEAE2457FD33003AFD1D /* TermsAndConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionVC.swift; sourceTree = "<group>"; };
 		E218DEB02457FD4F003AFD1D /* CallUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallUsVC.swift; sourceTree = "<group>"; };
 		E218DEB22457FD68003AFD1D /* WhatsappVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappVC.swift; sourceTree = "<group>"; };
+		E2A80E9B245DC407007174B5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E2A80E9D245DC941007174B5 /* DPAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPAddressVC.swift; sourceTree = "<group>"; };
+		E2A80E9F245DC95D007174B5 /* DPShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPShopVC.swift; sourceTree = "<group>"; };
 		E2D926BB2457309C00E7926D /* Skycom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skycom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D926BE2457309C00E7926D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2D926C22457309C00E7926D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -64,10 +70,13 @@
 			children = (
 				E2D926BE2457309C00E7926D /* AppDelegate.swift */,
 				E2D926C22457309C00E7926D /* HomeVC.swift */,
+				E2A80E9D245DC941007174B5 /* DPAddressVC.swift */,
+				E2A80E9F245DC95D007174B5 /* DPShopVC.swift */,
 				E218DEAC2457FD07003AFD1D /* AboutUsVC.swift */,
 				E218DEAE2457FD33003AFD1D /* TermsAndConditionVC.swift */,
 				E218DEB02457FD4F003AFD1D /* CallUsVC.swift */,
 				E218DEB22457FD68003AFD1D /* WhatsappVC.swift */,
+				E2A80E9B245DC407007174B5 /* Colors.swift */,
 				E2D926C42457309C00E7926D /* Main.storyboard */,
 				E2D926C7245730A800E7926D /* Assets.xcassets */,
 				E2D926C9245730A800E7926D /* LaunchScreen.storyboard */,
@@ -150,9 +159,12 @@
 				E2D926C32457309C00E7926D /* HomeVC.swift in Sources */,
 				E218DEB12457FD4F003AFD1D /* CallUsVC.swift in Sources */,
 				E218DEAD2457FD08003AFD1D /* AboutUsVC.swift in Sources */,
+				E2A80E9C245DC407007174B5 /* Colors.swift in Sources */,
 				E218DEAF2457FD33003AFD1D /* TermsAndConditionVC.swift in Sources */,
 				E218DEB32457FD68003AFD1D /* WhatsappVC.swift in Sources */,
 				E2D926BF2457309C00E7926D /* AppDelegate.swift in Sources */,
+				E2A80E9E245DC941007174B5 /* DPAddressVC.swift in Sources */,
+				E2A80EA0245DC95D007174B5 /* DPShopVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

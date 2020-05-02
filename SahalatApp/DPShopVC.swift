@@ -1,21 +1,19 @@
 //
-//  AboutUsVC.swift
+//  DPShopVC.swift
 //  SahalatApp
 //
-//  Created by Vivek on 4/28/20.
+//  Created by Vivek on 5/2/20.
 //  Copyright © 2020 Vivek. All rights reserved.
 //
 
 import UIKit
 
-class AboutUsVC: UIViewController {
+class DPShopVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = kBackgroundviewcolor
-        
     }
     
 
