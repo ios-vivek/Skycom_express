@@ -19,6 +19,11 @@
 		E2D926C62457309C00E7926D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D926C42457309C00E7926D /* Main.storyboard */; };
 		E2D926C8245730A800E7926D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D926C7245730A800E7926D /* Assets.xcassets */; };
 		E2D926CB245730A800E7926D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D926C9245730A800E7926D /* LaunchScreen.storyboard */; };
+		E2FFA40E2465872B003A4006 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FFA40D2465872B003A4006 /* LoginVC.swift */; };
+		E2FFA410246587D7003A4006 /* MyAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FFA40F246587D7003A4006 /* MyAccount.storyboard */; };
+		E2FFA4122465B286003A4006 /* Registration1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FFA4112465B285003A4006 /* Registration1VC.swift */; };
+		E2FFA4142465B29C003A4006 /* Registration2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FFA4132465B29C003A4006 /* Registration2VC.swift */; };
+		E2FFA4162465B2B3003A4006 /* Registration3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FFA4152465B2B3003A4006 /* Registration3VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		E2D926C7245730A800E7926D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D926CA245730A800E7926D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D926CC245730A800E7926D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FFA40D2465872B003A4006 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E2FFA40F246587D7003A4006 /* MyAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyAccount.storyboard; sourceTree = "<group>"; };
+		E2FFA4112465B285003A4006 /* Registration1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration1VC.swift; sourceTree = "<group>"; };
+		E2FFA4132465B29C003A4006 /* Registration2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration2VC.swift; sourceTree = "<group>"; };
+		E2FFA4152465B2B3003A4006 /* Registration3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration3VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +87,12 @@
 				E218DEB02457FD4F003AFD1D /* CallUsVC.swift */,
 				E218DEB22457FD68003AFD1D /* WhatsappVC.swift */,
 				E2A80E9B245DC407007174B5 /* Colors.swift */,
+				E2FFA40D2465872B003A4006 /* LoginVC.swift */,
+				E2FFA4112465B285003A4006 /* Registration1VC.swift */,
+				E2FFA4132465B29C003A4006 /* Registration2VC.swift */,
+				E2FFA4152465B2B3003A4006 /* Registration3VC.swift */,
 				E2D926C42457309C00E7926D /* Main.storyboard */,
+				E2FFA40F246587D7003A4006 /* MyAccount.storyboard */,
 				E2D926C7245730A800E7926D /* Assets.xcassets */,
 				E2D926C9245730A800E7926D /* LaunchScreen.storyboard */,
 				E2D926CC245730A800E7926D /* Info.plist */,
@@ -145,6 +160,7 @@
 			files = (
 				E2D926CB245730A800E7926D /* LaunchScreen.storyboard in Resources */,
 				E2D926C8245730A800E7926D /* Assets.xcassets in Resources */,
+				E2FFA410246587D7003A4006 /* MyAccount.storyboard in Resources */,
 				E2D926C62457309C00E7926D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,10 +174,14 @@
 			files = (
 				E2D926C32457309C00E7926D /* HomeVC.swift in Sources */,
 				E218DEB12457FD4F003AFD1D /* CallUsVC.swift in Sources */,
+				E2FFA4142465B29C003A4006 /* Registration2VC.swift in Sources */,
 				E218DEAD2457FD08003AFD1D /* AboutUsVC.swift in Sources */,
 				E2A80E9C245DC407007174B5 /* Colors.swift in Sources */,
+				E2FFA4122465B286003A4006 /* Registration1VC.swift in Sources */,
+				E2FFA40E2465872B003A4006 /* LoginVC.swift in Sources */,
 				E218DEAF2457FD33003AFD1D /* TermsAndConditionVC.swift in Sources */,
 				E218DEB32457FD68003AFD1D /* WhatsappVC.swift in Sources */,
+				E2FFA4162465B2B3003A4006 /* Registration3VC.swift in Sources */,
 				E2D926BF2457309C00E7926D /* AppDelegate.swift in Sources */,
 				E2A80E9E245DC941007174B5 /* DPAddressVC.swift in Sources */,
 				E2A80EA0245DC95D007174B5 /* DPShopVC.swift in Sources */,
@@ -319,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vivek.SahalatApp;
 				PRODUCT_NAME = Skycom;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,7 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vivek.SahalatApp;
 				PRODUCT_NAME = Skycom;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

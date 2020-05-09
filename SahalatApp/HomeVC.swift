@@ -46,8 +46,11 @@ class HomeVC: UIViewController {
             print("select second view")
         case 3 :
             print("select third view")
+            
         default:
-            print("default")
+            let story = UIStoryboard.init(name: "MyAccount", bundle: nil)
+            let vc = story.instantiateViewController(identifier: "LoginVC")
+            self.navigationController?.present(vc, animated: true, completion: nil)
         }
     }
 
