@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Registration2VC: UIViewController {
+class Registration2VC: BaseVC {
     @IBOutlet weak var enterOTPField: UITextField!
        @IBOutlet weak var inputField: UITextField!
 

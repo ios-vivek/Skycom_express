@@ -8,11 +8,18 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+protocol LoginDelegate: class{
+    func loggedIn()
+    func openRegistartionPage()
+}
+
+class LoginVC: BaseVC {
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var registerButton: UIButton!
+    weak var delegate: LoginDelegate?
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,9 +38,10 @@ class LoginVC: UIViewController {
         
     }
     @IBAction func signupAction(sender: UIButton){
-        let story = UIStoryboard.init(name: "MyAccount", bundle: nil)
-        let vc = story.instantiateViewController(identifier: "Registration1VC")
-        self.navigationController?.present(vc, animated: true, completion: nil)
+        self.dismiss(animated: true) {
+            self.delegate?.openRegistartionPage()
+        }
+        
     }
     @IBAction func forgotPasswordAction(sender: UIButton){
         

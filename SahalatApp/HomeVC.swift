@@ -9,7 +9,9 @@
 import UIKit
 
 @available(iOS 13.0, *)
-class HomeVC: UIViewController {
+class HomeVC: BaseVC, LoginDelegate {
+ 
+    
     @IBOutlet weak var aboutusView: UIView!
     @IBOutlet weak var termsView: UIView!
     @IBOutlet weak var callView: UIView!
@@ -18,6 +20,7 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+       
         navigationController?.navigationBar.barTintColor = .white
         self.view.backgroundColor = kBackgroundviewcolor
 
@@ -49,12 +52,35 @@ class HomeVC: UIViewController {
             
         default:
             let story = UIStoryboard.init(name: "MyAccount", bundle: nil)
-            let vc = story.instantiateViewController(identifier: "LoginVC")
+            let vc = story.instantiateViewController(identifier: "LoginVC") as! LoginVC
+            vc.delegate = self
             self.navigationController?.present(vc, animated: true, completion: nil)
         }
     }
-
-
+    @IBAction func openCalculaterPage(){
+        let story = UIStoryboard.init(name: "Main", bundle: nil)
+        let vc = story.instantiateViewController(identifier: "CalculaterVC")
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @IBAction func openPickDeliverPage(){
+        let story = UIStoryboard.init(name: "Main", bundle: nil)
+               let vc = story.instantiateViewController(identifier: "PickDeliverVC")
+               self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @IBAction func openBuyDeliverPage(){
+        let story = UIStoryboard.init(name: "Main", bundle: nil)
+               let vc = story.instantiateViewController(identifier: "PickDeliverVC")
+               self.navigationController?.pushViewController(vc, animated: true)
+    }
+    func openRegistartionPage(){
+       let story = UIStoryboard.init(name: "MyAccount", bundle: nil)
+        let vc = story.instantiateViewController(identifier: "Registration1VC")
+        self.navigationController?.present(vc, animated: true, completion: nil)
+    }
+    func loggedIn() {
+         print("logged in")
+        
+     }
 
 }
 

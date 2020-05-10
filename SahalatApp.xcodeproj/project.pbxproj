@@ -11,9 +11,16 @@
 		E218DEAF2457FD33003AFD1D /* TermsAndConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218DEAE2457FD33003AFD1D /* TermsAndConditionVC.swift */; };
 		E218DEB12457FD4F003AFD1D /* CallUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218DEB02457FD4F003AFD1D /* CallUsVC.swift */; };
 		E218DEB32457FD68003AFD1D /* WhatsappVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218DEB22457FD68003AFD1D /* WhatsappVC.swift */; };
+		E2864B562467A1E600F61EC0 /* CalculaterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2864B552467A1E500F61EC0 /* CalculaterVC.swift */; };
 		E2A80E9C245DC407007174B5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80E9B245DC407007174B5 /* Colors.swift */; };
 		E2A80E9E245DC941007174B5 /* DPAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80E9D245DC941007174B5 /* DPAddressVC.swift */; };
 		E2A80EA0245DC95D007174B5 /* DPShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80E9F245DC95D007174B5 /* DPShopVC.swift */; };
+		E2B840122467B5AD00C3B873 /* SBPickerSwiftSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B840112467B5AC00C3B873 /* SBPickerSwiftSelector.xib */; };
+		E2B840142467B5B600C3B873 /* SBPickerSwiftSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B840132467B5B600C3B873 /* SBPickerSwiftSelector.swift */; };
+		E2B840162467C5FB00C3B873 /* SenderFieldsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B840152467C5FB00C3B873 /* SenderFieldsVC.swift */; };
+		E2B840182467C61100C3B873 /* ReceiverFieldsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B840172467C61100C3B873 /* ReceiverFieldsVC.swift */; };
+		E2B8401A2467E50400C3B873 /* PickDeliverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B840192467E50400C3B873 /* PickDeliverVC.swift */; };
+		E2B8401C246805B300C3B873 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8401B246805B300C3B873 /* BaseVC.swift */; };
 		E2D926BF2457309C00E7926D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D926BE2457309C00E7926D /* AppDelegate.swift */; };
 		E2D926C32457309C00E7926D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D926C22457309C00E7926D /* HomeVC.swift */; };
 		E2D926C62457309C00E7926D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D926C42457309C00E7926D /* Main.storyboard */; };
@@ -31,9 +38,16 @@
 		E218DEAE2457FD33003AFD1D /* TermsAndConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionVC.swift; sourceTree = "<group>"; };
 		E218DEB02457FD4F003AFD1D /* CallUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallUsVC.swift; sourceTree = "<group>"; };
 		E218DEB22457FD68003AFD1D /* WhatsappVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappVC.swift; sourceTree = "<group>"; };
+		E2864B552467A1E500F61EC0 /* CalculaterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaterVC.swift; sourceTree = "<group>"; };
 		E2A80E9B245DC407007174B5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		E2A80E9D245DC941007174B5 /* DPAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPAddressVC.swift; sourceTree = "<group>"; };
 		E2A80E9F245DC95D007174B5 /* DPShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPShopVC.swift; sourceTree = "<group>"; };
+		E2B840112467B5AC00C3B873 /* SBPickerSwiftSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBPickerSwiftSelector.xib; sourceTree = "<group>"; };
+		E2B840132467B5B600C3B873 /* SBPickerSwiftSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBPickerSwiftSelector.swift; sourceTree = "<group>"; };
+		E2B840152467C5FB00C3B873 /* SenderFieldsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderFieldsVC.swift; sourceTree = "<group>"; };
+		E2B840172467C61100C3B873 /* ReceiverFieldsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverFieldsVC.swift; sourceTree = "<group>"; };
+		E2B840192467E50400C3B873 /* PickDeliverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDeliverVC.swift; sourceTree = "<group>"; };
+		E2B8401B246805B300C3B873 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		E2D926BB2457309C00E7926D /* Skycom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skycom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D926BE2457309C00E7926D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2D926C22457309C00E7926D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -91,6 +105,13 @@
 				E2FFA4112465B285003A4006 /* Registration1VC.swift */,
 				E2FFA4132465B29C003A4006 /* Registration2VC.swift */,
 				E2FFA4152465B2B3003A4006 /* Registration3VC.swift */,
+				E2864B552467A1E500F61EC0 /* CalculaterVC.swift */,
+				E2B840192467E50400C3B873 /* PickDeliverVC.swift */,
+				E2B840152467C5FB00C3B873 /* SenderFieldsVC.swift */,
+				E2B840172467C61100C3B873 /* ReceiverFieldsVC.swift */,
+				E2B840132467B5B600C3B873 /* SBPickerSwiftSelector.swift */,
+				E2B8401B246805B300C3B873 /* BaseVC.swift */,
+				E2B840112467B5AC00C3B873 /* SBPickerSwiftSelector.xib */,
 				E2D926C42457309C00E7926D /* Main.storyboard */,
 				E2FFA40F246587D7003A4006 /* MyAccount.storyboard */,
 				E2D926C7245730A800E7926D /* Assets.xcassets */,
@@ -160,6 +181,7 @@
 			files = (
 				E2D926CB245730A800E7926D /* LaunchScreen.storyboard in Resources */,
 				E2D926C8245730A800E7926D /* Assets.xcassets in Resources */,
+				E2B840122467B5AD00C3B873 /* SBPickerSwiftSelector.xib in Resources */,
 				E2FFA410246587D7003A4006 /* MyAccount.storyboard in Resources */,
 				E2D926C62457309C00E7926D /* Main.storyboard in Resources */,
 			);
@@ -172,8 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B840182467C61100C3B873 /* ReceiverFieldsVC.swift in Sources */,
+				E2B840162467C5FB00C3B873 /* SenderFieldsVC.swift in Sources */,
 				E2D926C32457309C00E7926D /* HomeVC.swift in Sources */,
 				E218DEB12457FD4F003AFD1D /* CallUsVC.swift in Sources */,
+				E2B8401C246805B300C3B873 /* BaseVC.swift in Sources */,
 				E2FFA4142465B29C003A4006 /* Registration2VC.swift in Sources */,
 				E218DEAD2457FD08003AFD1D /* AboutUsVC.swift in Sources */,
 				E2A80E9C245DC407007174B5 /* Colors.swift in Sources */,
@@ -182,8 +207,11 @@
 				E218DEAF2457FD33003AFD1D /* TermsAndConditionVC.swift in Sources */,
 				E218DEB32457FD68003AFD1D /* WhatsappVC.swift in Sources */,
 				E2FFA4162465B2B3003A4006 /* Registration3VC.swift in Sources */,
+				E2B840142467B5B600C3B873 /* SBPickerSwiftSelector.swift in Sources */,
+				E2B8401A2467E50400C3B873 /* PickDeliverVC.swift in Sources */,
 				E2D926BF2457309C00E7926D /* AppDelegate.swift in Sources */,
 				E2A80E9E245DC941007174B5 /* DPAddressVC.swift in Sources */,
+				E2864B562467A1E600F61EC0 /* CalculaterVC.swift in Sources */,
 				E2A80EA0245DC95D007174B5 /* DPShopVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +359,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W33F7TLYJL;
 				INFOPLIST_FILE = SahalatApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,7 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W33F7TLYJL;
 				INFOPLIST_FILE = SahalatApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

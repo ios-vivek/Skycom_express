@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Registration3VC: UIViewController {
+class Registration3VC: BaseVC {
     @IBOutlet weak var passwordField: UITextField!
 
     override func viewDidLoad() {

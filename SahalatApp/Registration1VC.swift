@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Registration1VC: UIViewController {
+class Registration1VC: BaseVC {
     @IBOutlet weak var emailField: UITextField!
        @IBOutlet weak var phoneField: UITextField!
        @IBOutlet weak var sendOTPButton: UIButton!
