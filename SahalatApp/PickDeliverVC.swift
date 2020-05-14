@@ -59,6 +59,9 @@ lField.attributedPlaceholder = NSAttributedString(string: "L", attributes:attrib
 
                
         }
+    @IBAction func backAction(sender: UIButton){
+              self.navigationController?.popViewController(animated: true)
+          }
         @IBAction func selectWieghtType(sender: UIButton){
             self.openPicker(arr: ["KG, GM"])
         }

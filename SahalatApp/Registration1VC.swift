@@ -18,17 +18,27 @@ class Registration1VC: BaseVC {
         self.view.backgroundColor = kBackgroundviewcolor
 
         // Do any additional setup after loading the view.
-        phoneField.attributedPlaceholder = NSAttributedString(string: "Enter Mobile no.",
-        attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+       
+        let attributes = [
+                        NSAttributedString.Key.foregroundColor: UIColor.black,
+                        NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 18)
+                    ]
+        phoneField.attributedPlaceholder = NSAttributedString(string: "Enter Mobile no.", attributes:attributes)
+        emailField.attributedPlaceholder = NSAttributedString(string: "Enter E-mail here", attributes:attributes)
+        
 
-        emailField.attributedPlaceholder = NSAttributedString(string: "Enter E-mail here",
-        attributes: [NSAttributedString.Key.foregroundColor: UIColor.darkGray])
+       
 
     }
+    @IBAction func backAction(sender: UIButton){
+           self.navigationController?.popViewController(animated: true)
+       }
     @IBAction func sendOtpAction(sender: UIButton){
         let story = UIStoryboard.init(name: "MyAccount", bundle: nil)
                let vc = story.instantiateViewController(identifier: "Registration2VC")
-               self.navigationController?.present(vc, animated: true, completion: nil)
+              // self.navigationController?.present(vc, animated: true, completion: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
+
     }
 
     /*

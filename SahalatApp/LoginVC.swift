@@ -29,18 +29,26 @@ class LoginVC: BaseVC {
         loginButton.layer.borderWidth = 1
         loginButton.layer.borderColor = kBluecolor.cgColor
         registerButton.backgroundColor = kBluecolor
-        usernameField.attributedPlaceholder = NSAttributedString(string: "Username",
-        attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        passwordField.attributedPlaceholder = NSAttributedString(string: "Password",
-        attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-    }
-    @IBAction func loginAction(sender: UIButton){
+           let attributes = [
+                        NSAttributedString.Key.foregroundColor: UIColor.white,
+                        NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 18)
+                    ]
+        usernameField.attributedPlaceholder = NSAttributedString(string: "Username", attributes:attributes)
+        passwordField.attributedPlaceholder = NSAttributedString(string: "Password", attributes:attributes)
         
     }
+    @IBAction func backAction(sender: UIButton){
+        self.navigationController?.popViewController(animated: true)
+    }
+    @IBAction func loginAction(sender: UIButton){
+        self.navigationController?.popToRootViewController(animated: true)
+
+    }
     @IBAction func signupAction(sender: UIButton){
-        self.dismiss(animated: true) {
+        self.navigationController?.popViewController(animated: true)
+       // self.dismiss(animated: true) {
             self.delegate?.openRegistartionPage()
-        }
+      //  }
         
     }
     @IBAction func forgotPasswordAction(sender: UIButton){

@@ -50,7 +50,9 @@ class SenderFieldsVC: BaseVC {
 
         
     }
-    
+    @IBAction func backAction(sender: UIButton){
+              self.navigationController?.popViewController(animated: true)
+          }
     @IBAction func selectLocationAction(sender: UIButton){
         
     }

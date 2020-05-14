@@ -32,7 +32,7 @@ class BaseVC: UIViewController {
           
         } else {
             let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView
-            statusBar?.backgroundColor = UIColor.red
+            statusBar?.backgroundColor = UIColor.white
         }
     }
     

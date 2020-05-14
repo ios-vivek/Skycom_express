@@ -46,6 +46,9 @@ class CalculaterVC: BaseVC {
 
            
     }
+    @IBAction func backAction(sender: UIButton){
+                 self.navigationController?.popViewController(animated: true)
+             }
     @IBAction func selectWieghtType(sender: UIButton){
         self.openPicker()
     }

@@ -18,17 +18,26 @@ class Registration2VC: BaseVC {
         inputField.layer.borderWidth = 1
         inputField.layer.borderColor = UIColor.darkGray.cgColor
         inputField.textColor = .darkGray
-        enterOTPField.attributedPlaceholder = NSAttributedString(string: "Enter OTP here",
-        attributes: [NSAttributedString.Key.foregroundColor: UIColor.black])
+        
+        let attributes = [
+                        NSAttributedString.Key.foregroundColor: UIColor.black,
+                        NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 18)
+                    ]
+        enterOTPField.attributedPlaceholder = NSAttributedString(string: "Enter OTP here", attributes:attributes)
         
     }
+    @IBAction func backAction(sender: UIButton){
+           self.navigationController?.popViewController(animated: true)
+       }
     @IBAction func resendOtpAction(sender: UIButton){
         
     }
     @IBAction func resendNowAction(sender: UIButton){
         let story = UIStoryboard.init(name: "MyAccount", bundle: nil)
                let vc = story.instantiateViewController(identifier: "Registration3VC")
-               self.navigationController?.present(vc, animated: true, completion: nil)
+             //  self.navigationController?.present(vc, animated: true, completion: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
+
     }
 
     /*

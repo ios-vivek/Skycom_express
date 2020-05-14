@@ -16,11 +16,18 @@ class Registration3VC: BaseVC {
         self.view.backgroundColor = kBackgroundviewcolor
 
         // Do any additional setup after loading the view.
+        let attributes = [
+                               NSAttributedString.Key.foregroundColor: UIColor.black,
+                               NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 18)
+                           ]
+               passwordField.attributedPlaceholder = NSAttributedString(string: "Enter Password", attributes:attributes)
     }
     @IBAction func continueAction(sender: UIButton){
-        
+        self.navigationController?.popToRootViewController(animated: true)
     }
-
+    @IBAction func backAction(sender: UIButton){
+           self.navigationController?.popViewController(animated: true)
+       }
     /*
     // MARK: - Navigation
 

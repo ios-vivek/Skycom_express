@@ -54,7 +54,8 @@ class HomeVC: BaseVC, LoginDelegate {
             let story = UIStoryboard.init(name: "MyAccount", bundle: nil)
             let vc = story.instantiateViewController(identifier: "LoginVC") as! LoginVC
             vc.delegate = self
-            self.navigationController?.present(vc, animated: true, completion: nil)
+           // self.navigationController?.present(vc, animated: true, completion: nil)
+            self.navigationController?.pushViewController(vc, animated: true)
         }
     }
     @IBAction func openCalculaterPage(){
@@ -75,7 +76,9 @@ class HomeVC: BaseVC, LoginDelegate {
     func openRegistartionPage(){
        let story = UIStoryboard.init(name: "MyAccount", bundle: nil)
         let vc = story.instantiateViewController(identifier: "Registration1VC")
-        self.navigationController?.present(vc, animated: true, completion: nil)
+       // self.navigationController?.present(vc, animated: true, completion: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
+
     }
     func loggedIn() {
          print("logged in")
