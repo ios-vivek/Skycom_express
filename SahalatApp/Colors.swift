@@ -11,5 +11,6 @@ import UIKit
 let kBackgroundviewcolor = UIColor.white
 let kOrangecolor = UIColor(red: 244.0/255, green: 174.0/255, blue: 49.0/255, alpha: 1.0)
 let kBluecolor = UIColor(red: 75.0/255, green: 172.0/255, blue: 198.0/255, alpha: 1.0)
-let kGraycolor = UIColor.lightGray
+let kGraycolor = UIColor(red: 242.0/255, green: 242.0/255, blue: 242.0/255, alpha: 1.0)
+
 

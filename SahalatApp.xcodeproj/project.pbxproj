@@ -21,6 +21,8 @@
 		E2B840182467C61100C3B873 /* ReceiverFieldsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B840172467C61100C3B873 /* ReceiverFieldsVC.swift */; };
 		E2B8401A2467E50400C3B873 /* PickDeliverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B840192467E50400C3B873 /* PickDeliverVC.swift */; };
 		E2B8401C246805B300C3B873 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8401B246805B300C3B873 /* BaseVC.swift */; };
+		E2D0BE78246D744300D8CED8 /* MyAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0BE77246D744300D8CED8 /* MyAccountVC.swift */; };
+		E2D0BE7B246D748B00D8CED8 /* MyAccountcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0BE7A246D748B00D8CED8 /* MyAccountcell.swift */; };
 		E2D926BF2457309C00E7926D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D926BE2457309C00E7926D /* AppDelegate.swift */; };
 		E2D926C32457309C00E7926D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D926C22457309C00E7926D /* HomeVC.swift */; };
 		E2D926C62457309C00E7926D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D926C42457309C00E7926D /* Main.storyboard */; };
@@ -48,6 +50,8 @@
 		E2B840172467C61100C3B873 /* ReceiverFieldsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverFieldsVC.swift; sourceTree = "<group>"; };
 		E2B840192467E50400C3B873 /* PickDeliverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDeliverVC.swift; sourceTree = "<group>"; };
 		E2B8401B246805B300C3B873 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		E2D0BE77246D744300D8CED8 /* MyAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountVC.swift; sourceTree = "<group>"; };
+		E2D0BE7A246D748B00D8CED8 /* MyAccountcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountcell.swift; sourceTree = "<group>"; };
 		E2D926BB2457309C00E7926D /* Skycom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skycom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D926BE2457309C00E7926D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2D926C22457309C00E7926D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -73,6 +77,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2D0BE74246D738F00D8CED8 /* RegistrationVCs */ = {
+			isa = PBXGroup;
+			children = (
+				E2FFA4112465B285003A4006 /* Registration1VC.swift */,
+				E2FFA4132465B29C003A4006 /* Registration2VC.swift */,
+				E2FFA4152465B2B3003A4006 /* Registration3VC.swift */,
+			);
+			path = RegistrationVCs;
+			sourceTree = "<group>";
+		};
+		E2D0BE75246D73AC00D8CED8 /* CalculaterClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E2864B552467A1E500F61EC0 /* CalculaterVC.swift */,
+			);
+			path = CalculaterClasses;
+			sourceTree = "<group>";
+		};
+		E2D0BE76246D73D200D8CED8 /* LoginClass */ = {
+			isa = PBXGroup;
+			children = (
+				E2FFA40D2465872B003A4006 /* LoginVC.swift */,
+			);
+			path = LoginClass;
+			sourceTree = "<group>";
+		};
+		E2D0BE79246D744A00D8CED8 /* MyAccountClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E2D0BE77246D744300D8CED8 /* MyAccountVC.swift */,
+				E2D0BE7A246D748B00D8CED8 /* MyAccountcell.swift */,
+			);
+			path = MyAccountClasses;
+			sourceTree = "<group>";
+		};
 		E2D926B22457309B00E7926D = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +140,13 @@
 				E218DEB02457FD4F003AFD1D /* CallUsVC.swift */,
 				E218DEB22457FD68003AFD1D /* WhatsappVC.swift */,
 				E2A80E9B245DC407007174B5 /* Colors.swift */,
-				E2FFA40D2465872B003A4006 /* LoginVC.swift */,
-				E2FFA4112465B285003A4006 /* Registration1VC.swift */,
-				E2FFA4132465B29C003A4006 /* Registration2VC.swift */,
-				E2FFA4152465B2B3003A4006 /* Registration3VC.swift */,
-				E2864B552467A1E500F61EC0 /* CalculaterVC.swift */,
+				E2D0BE76246D73D200D8CED8 /* LoginClass */,
+				E2D0BE74246D738F00D8CED8 /* RegistrationVCs */,
+				E2D0BE75246D73AC00D8CED8 /* CalculaterClasses */,
 				E2B840192467E50400C3B873 /* PickDeliverVC.swift */,
 				E2B840152467C5FB00C3B873 /* SenderFieldsVC.swift */,
 				E2B840172467C61100C3B873 /* ReceiverFieldsVC.swift */,
+				E2D0BE79246D744A00D8CED8 /* MyAccountClasses */,
 				E2B840132467B5B600C3B873 /* SBPickerSwiftSelector.swift */,
 				E2B8401B246805B300C3B873 /* BaseVC.swift */,
 				E2B840112467B5AC00C3B873 /* SBPickerSwiftSelector.xib */,
@@ -198,6 +236,7 @@
 				E2B840162467C5FB00C3B873 /* SenderFieldsVC.swift in Sources */,
 				E2D926C32457309C00E7926D /* HomeVC.swift in Sources */,
 				E218DEB12457FD4F003AFD1D /* CallUsVC.swift in Sources */,
+				E2D0BE78246D744300D8CED8 /* MyAccountVC.swift in Sources */,
 				E2B8401C246805B300C3B873 /* BaseVC.swift in Sources */,
 				E2FFA4142465B29C003A4006 /* Registration2VC.swift in Sources */,
 				E218DEAD2457FD08003AFD1D /* AboutUsVC.swift in Sources */,
@@ -206,6 +245,7 @@
 				E2FFA40E2465872B003A4006 /* LoginVC.swift in Sources */,
 				E218DEAF2457FD33003AFD1D /* TermsAndConditionVC.swift in Sources */,
 				E218DEB32457FD68003AFD1D /* WhatsappVC.swift in Sources */,
+				E2D0BE7B246D748B00D8CED8 /* MyAccountcell.swift in Sources */,
 				E2FFA4162465B2B3003A4006 /* Registration3VC.swift in Sources */,
 				E2B840142467B5B600C3B873 /* SBPickerSwiftSelector.swift in Sources */,
 				E2B8401A2467E50400C3B873 /* PickDeliverVC.swift in Sources */,

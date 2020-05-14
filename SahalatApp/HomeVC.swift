@@ -52,8 +52,9 @@ class HomeVC: BaseVC, LoginDelegate {
             
         default:
             let story = UIStoryboard.init(name: "MyAccount", bundle: nil)
-            let vc = story.instantiateViewController(identifier: "LoginVC") as! LoginVC
-            vc.delegate = self
+          //  let vc = story.instantiateViewController(identifier: "LoginVC") as! LoginVC
+             let vc = story.instantiateViewController(identifier: "MyAccountVC") as! MyAccountVC
+           // vc.delegate = self
            // self.navigationController?.present(vc, animated: true, completion: nil)
             self.navigationController?.pushViewController(vc, animated: true)
         }
