@@ -13,7 +13,8 @@ class MyAccountVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
 var listArray = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationController?.navigationBar.barTintColor = .white
+        self.view.backgroundColor = kBackgroundviewcolor
         // Do any additional setup after loading the view.
         listArray = ["Profile","Email Address","Mobile","Address","Manager Cards","Notification"]
     }

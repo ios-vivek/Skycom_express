@@ -21,7 +21,8 @@ class SenderFieldsVC: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationController?.navigationBar.barTintColor = .white
+        self.view.backgroundColor = kBackgroundviewcolor
        let attributes = [
             NSAttributedString.Key.foregroundColor: kGraycolor,
             NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 16)
